@@ -13,18 +13,15 @@ export default class IndexPage extends React.Component {
         <section className="section">
           <div className="container">
             {posts
-              .map(({ node: post }) => (
+              .map(({ node: cadeau }) => (
                 <div
                   className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
-                  key={post.id}
+                  key={cadeau.id}
                 >
                   <p>
-                      {post.frontmatter.title}
+                      {cadeau.frontmatter.title}
                   </p>
-                  <p>
-                    {post.html}
-                  </p>
+                  <div dangerouslySetInnerHTML={{ __html: cadeau.html }} />
                 </div>
               ))}
           </div>
@@ -37,7 +34,6 @@ export default class IndexPage extends React.Component {
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
       filter: { frontmatter: { templateKey: { eq: "cadeaux" } }}
     ) {
       edges {

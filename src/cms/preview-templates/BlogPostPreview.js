@@ -2,11 +2,11 @@ import React from 'react'
 import { BlogPostTemplate } from '../../templates/cadeaux'
 
 const BlogPostPreview = ({ entry, widgetFor }) => (
-  <BlogPostTemplate
-    content={widgetFor('body')}
-    description={entry.getIn(['data', 'description'])}
-    title={entry.getIn(['data', 'title'])}
-  />
+  <div>
+    {entry.getIn(['data', 'title'])}
+    {entry.getIn(['data', 'description'])}
+    {widgetFor('body')}
+  </div>
 )
 
 export default BlogPostPreview
