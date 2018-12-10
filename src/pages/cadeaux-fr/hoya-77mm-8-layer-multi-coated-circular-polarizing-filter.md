@@ -8,4 +8,4 @@ sites:
     name: Amazon
     price: '112.95'
 ---
-A polarizing filter is a unique filter that allows to capture more vibrant bleus and greens. Perfect for my favorite type of photography: landscapes! It also allows to cut the reflexion in water and in windows.
+Un filtre polarisant est un filtre unique qui me permet de capturer des bleus et des verts plus éclatants. Parfait pour mon type de photographie préféré: les paysages! Ce filtre permet aussi de couper le reflet dans l'eau et dans les fenêtres.
