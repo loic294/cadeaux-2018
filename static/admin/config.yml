@@ -29,7 +29,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cadeaux"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cadeaux-fr"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - label: "Sites"

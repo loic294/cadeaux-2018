@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Special Quick Release Plate
 sites:
   - desc: ''

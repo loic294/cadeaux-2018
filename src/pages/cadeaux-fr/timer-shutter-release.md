@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Wired Shutter Release Remote Control
 sites:
   - desc: ''

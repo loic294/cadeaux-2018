@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Step Up Rings
 sites:
   - desc: ''

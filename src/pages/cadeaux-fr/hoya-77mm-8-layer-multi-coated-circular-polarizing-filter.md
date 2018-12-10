@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Hoya 77mm 8-layer Multi-Coated Circular Polarizing Filter
 sites:
   - desc: ''

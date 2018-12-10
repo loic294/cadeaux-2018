@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Ski poles (for downhill skiing)
 sites:
   - link: >-

@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
-export default class IndexPage extends React.Component {
+export default class FrPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query FrQuery {
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "cadeaux-fr" } }}
     ) {

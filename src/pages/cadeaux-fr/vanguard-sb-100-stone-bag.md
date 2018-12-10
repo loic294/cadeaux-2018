@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Vanguard SB-100 Stone Bag
 sites:
   - desc: ''

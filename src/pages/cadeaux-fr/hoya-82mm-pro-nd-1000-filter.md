@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-fr
 title: Hoya 82mm Pro ND 1000 filter
 sites:
   - desc: ''
