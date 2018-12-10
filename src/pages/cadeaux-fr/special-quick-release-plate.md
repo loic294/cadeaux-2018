@@ -1,6 +1,6 @@
 ---
 templateKey: cadeaux-fr
-title: Special Quick Release Plate
+title: Quick release plate spéciale
 sites:
   - desc: ''
     link: >-
@@ -8,4 +8,4 @@ sites:
     name: Amazon
     price: '13.99'
 ---
-A quick release plate allows to quickly attach and detach my camera from my tripod. The problem I had during my trip this summer was that it was time consuming to change to screw/unscrew my camera to install the quick release plate. This one allows to keep my camera always attach which will be a great time saver.
+Une plaque de dégagement rapide permet d'attacher et de détacher rapidement mon appareil photo de mon trépied. Le problème que j’ai eu lors de mon voyage en Croatie cet été était qu’il fallait beaucoup de temps pour visser / dévisser mon appareil photo afin d’installer la plaque de fixation rapide. Celle-ci permet de garder toujours ma caméra attachée, ce qui permettra de sauver beaucoup de temps.
