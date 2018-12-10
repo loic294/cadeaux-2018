@@ -1,9 +1,17 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
-import SnowStorm from 'react-snowstorm'
-
 import './all.sass'
+
+let SnowStorm = null
+try {
+  /*eslint-disable */
+  navigator
+  SnowStorm = require('react-snowstorm')
+  /*eslint-enable */
+} catch (error) {}
+
+
 
 const TemplateWrapper = ({ children }) => (
   <StaticQuery
@@ -39,7 +47,7 @@ const TemplateWrapper = ({ children }) => (
           <link href="https://fonts.googleapis.com/css?family=Monoton|Quicksand:300,400,500,700|Roboto:100,300,400" rel="stylesheet" />
         </Helmet>
         <div className="mountains"></div>
-        <SnowStorm />
+        {SnowStorm && <SnowStorm />}
         <div>{children}</div>
       </div>
     )}
