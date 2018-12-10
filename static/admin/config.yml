@@ -23,4 +23,21 @@ collections:
           - {label: Price, name: price, widget: string, default: "20.00"}
           - {label: Link, name: link, widget: string, default: ""}
           - {label: Description, name: desc, widget: string, default: ""}
+  - name: "cadeaux-fr"
+    label: "Cadeaux (fr)"
+    folder: "src/pages/cadeaux-fr"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cadeaux"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Sites"
+        name: "sites"
+        widget: "list"
+        fields:
+          - {label: Name, name: name, widget: string, default: "Amazon"}
+          - {label: Price, name: price, widget: string, default: "20.00"}
+          - {label: Link, name: link, widget: string, default: ""}
+          - {label: Description, name: desc, widget: string, default: ""}
          
