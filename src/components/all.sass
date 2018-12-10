@@ -21,19 +21,27 @@ body
   font-family: 'Quicksand', sans-serif
   background-image: linear-gradient(to bottom, #8DD4F4, #BAD9E6)
   height: 100%
+  overflow: hidden
 
 h1, h2, h3
   font-family: 'Quicksand', sans-serif
   font-weight: 900
 
 .mountains
-  position: absolute
+  position: fixed
   bottom: 0
   left: 0
   right: 0
   background-image: url(/img/Snow.svg)
   height: 400px
   background-size: cover
+  z-index: 0
+
+.content
+  position: relative
+  z-index: 1
+  overflow-y: auto
+  height: 100vh
 
 .container 
   max-width: 720px
@@ -82,9 +90,21 @@ h1, h2, h3
     .site
       border-top: 1px solid #F0F0F0
       padding: 12px 24px
+      display: flex
+      align-items: center
+      justify-content: space-between
 
       &:hover 
         background-color: #F0F0F0
         cursor: pointer
+
+        .icon
+          animation: jump alternate infinite 0.2s
+
+@keyframes jump
+  from
+    transform: translateX(0)
+  to
+    transform: translateX(-6px)
 
 

@@ -38,11 +38,12 @@ const TemplateWrapper = ({ children }) => (
 	        <link rel="mask-icon" href="/img/logo.svg" color="#ff4400" />
 	        <meta name="theme-color" content="#fff" />
 
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"></link>
           <link href="https://fonts.googleapis.com/css?family=Monoton|Quicksand:300,400,500,700|Roboto:100,300,400" rel="stylesheet" />
         </Helmet>
         <div className="mountains"></div>
         {SnowStorm && <SnowStorm />}
-        <div>{children}</div>
+        <div className="content">{children}</div>
       </div>
     )}
   />

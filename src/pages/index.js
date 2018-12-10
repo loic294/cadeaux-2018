@@ -27,9 +27,10 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="list">
                     {cadeau.frontmatter.sites.map(({ link, name, price, desc}) => {
-                      return <a href={link} target="_blank" rel="noopener noreferrer">
+                      return <a key={name} href={link} target="_blank" rel="noopener noreferrer">
                         <div className="site">
-                          {name} {price && <b>{price}$</b>}
+                          <span>{name} {price && <b>{price}$</b>} </span>
+                          <i className="icon fas fa-long-arrow-alt-right"></i>
                         </div>
                       </a>
                     })}
