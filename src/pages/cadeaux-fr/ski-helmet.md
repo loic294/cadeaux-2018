@@ -1,10 +1,10 @@
 ---
 templateKey: cadeaux-fr
-title: Ski helmet
+title: Casque de ski
 sites:
   - desc: ''
     link: '#'
     name: Anywhere
     price: ''
 ---
-I am due for a new ski helmet. I could help for the selection because I might have to see it in person to decide if I like it or not.
+Je suis dû pour un nouveau casque de ski! Je pourrais aider à la sélection parce que je risque de devoir le porter pour vérifier la taille.
