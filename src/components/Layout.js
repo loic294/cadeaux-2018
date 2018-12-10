@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from "gatsby"
+import SnowStorm from 'react-snowstorm'
 
 import './all.sass'
 
@@ -34,7 +35,11 @@ const TemplateWrapper = ({ children }) => (
           <meta property="og:title" content={data.site.siteMetadata.title} />
           <meta property="og:url" content="/" />
           <meta property="og:image" content="/img/og-image.jpg" />
+
+          <link href="https://fonts.googleapis.com/css?family=Monoton|Quicksand:300,400,500,700|Roboto:100,300,400" rel="stylesheet" />
         </Helmet>
+        <div className="mountains"></div>
+        <SnowStorm />
         <div>{children}</div>
       </div>
     )}

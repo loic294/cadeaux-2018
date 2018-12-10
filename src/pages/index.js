@@ -1,6 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 export default class IndexPage extends React.Component {
@@ -12,16 +11,30 @@ export default class IndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
+            <div className="cadeau title">
+              <h1>Noël 2018</h1>
+            </div>
+
             {posts
               .map(({ node: cadeau }) => (
                 <div
-                  className="content"
+                  className="cadeau"
                   key={cadeau.id}
                 >
-                  <p>
-                      {cadeau.frontmatter.title}
-                  </p>
-                  <div dangerouslySetInnerHTML={{ __html: cadeau.html }} />
+                  <div className="innerPadding">
+                    <h1>{cadeau.frontmatter.title}</h1>
+                    <div dangerouslySetInnerHTML={{ __html: cadeau.html }} />
+                  </div>
+                  <div className="list">
+                    {cadeau.frontmatter.sites.map(({ link, name, price, desc}) => {
+                      return <a href={link} target="_blank" rel="noopener noreferrer">
+                        <div className="site">
+                          {name} {price && <b>{price}$</b>}
+                        </div>
+                      </a>
+                    })}
+                  </div>
+                  
                 </div>
               ))}
           </div>
@@ -46,6 +59,12 @@ export const pageQuery = graphql`
           frontmatter {
             title
             templateKey
+            sites {
+              link
+              name
+              price
+              desc
+            }
           }
         }
       }
