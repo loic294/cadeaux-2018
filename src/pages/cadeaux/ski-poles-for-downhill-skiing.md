@@ -11,8 +11,8 @@ sites:
     name: Sports Experts
     price: '59.99'
   - link: >-
-      https://www.sportsexperts.ca/en-CA/p-amt-mens-alpine-ski-poles/376978/376978-1
+      https://www.sportsexperts.ca/en-CA/p-amt-mens-alpine-ski-poles/376978/376978-4
     name: Sports Experts
     price: '39.99'
 ---
-I upgraded most of my ski equipment but I am still using my dads old ski poles.
+I upgraded most of my ski equipment but I am still using my dads old ski poles. My size is 125 cm.
