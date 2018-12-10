@@ -1,5 +1,4 @@
 import React from 'react'
-import { BlogPostTemplate } from '../../templates/cadeaux'
 
 const BlogPostPreview = ({ entry, widgetFor }) => (
   <div>
