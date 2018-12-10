@@ -12,4 +12,4 @@ sites:
     name: B&H
     price: '149.99'
 ---
-A neutral density filter is a must have for a photographer. This is the tool that allows to create unique long exposure shots. A ND 1000 is one of the most opaque filter which allows to take longer exposure. Here are examples of long exposures: http://bit.ly/2C16CIS
+A neutral density filter is a must have for a photographer. This is the tool that allows to create unique long exposure shots. A ND 1000 is one of the most opaque filter which allows to take longer exposure. Here are examples of long exposures: <http://bit.ly/2C16CIS>
