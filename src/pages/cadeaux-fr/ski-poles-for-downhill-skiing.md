@@ -1,6 +1,6 @@
 ---
 templateKey: cadeaux-fr
-title: Ski poles (for downhill skiing)
+title: Bâtons de ski (pour le ski alpin)
 sites:
   - link: >-
       https://www.sportsexperts.ca/en-CA/p-strapless-mens-alpine-ski-poles/774750/774750-24
@@ -15,4 +15,4 @@ sites:
     name: Sports Experts
     price: '39.99'
 ---
-I upgraded most of my ski equipment but I am still using my dads old ski poles. My size is 125 cm.
+J'ai modernisé la majorité de mon équipement de ski, mais j'utilise toujours les vieux bâtons de mon père... Ma taille est de 125 cm.

@@ -12,4 +12,4 @@ sites:
     name: B&H
     price: '10.99'
 ---
-I recently bought a new tripod and it's a great one: it's small and light, perfect for travel. The only compromise is that it's not as stable. But there's a solution! The company sells a stone bag that allows to add weight to the tripod to help stabilize it.
+J'ai récemment acheté un nouveau trépied et il est génial: petit et léger, parfait pour les voyages! Le seul problème est qu'il n'est pas aussi stable. Mais il y a une solution! La compagnie vend un sac pour des pierres qui permet d'ajouter du poids au trépied afin de le stabiliser.

@@ -1,6 +1,6 @@
 ---
 templateKey: cadeaux-fr
-title: Lavalier Microphone
+title: Microphone Lavalier
 sites:
   - desc: ''
     link: >-
@@ -16,6 +16,6 @@ sites:
     name: B&H
     price: '19.99'
 ---
-I recently bought a DJI Osmo Pocket. It's a pocket size camera that I will carry on me almost all the time during my trip in Vancouver. The problem with this small camera is that the sound isn't very good. To solve this, a Lavalier microphone is a great option.
+J'ai récemment acheté un DJI Osmo Pocket. C'est un appareil photo de poche que je vais amener avec moi presque tout le temps durant mon voyage à Vancouver. Le problème avec cette petite caméra est que le son n'est pas très bon. Pour résoudre ce problème, un microphone Lavalier est une excellente option. 
 
-I suggested a few options below but any Lavalier microphone will do the job.
+J'ai suggéré quelques options ci-dessous, mais tout microphone Lavalier fera l'affaire.

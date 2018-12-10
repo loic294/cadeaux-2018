@@ -15,4 +15,4 @@ sites:
     name: Henry's
     price: '79.99'
 ---
-This is going to be a must during my trip in Vancouver. This light will allow me to shoot content at night when there will be minimal lighting. It is also useful when doing long exposure photography to illuminate a subject.
+Ceci va être un "must" lors de mon voyage à Vancouver. Cette lumière me permettra de filmer du contenu la nuit alors que l’éclairage sera minimal. Elle sera également utile lors de la prise de longue exposition pour éclairer un sujet.

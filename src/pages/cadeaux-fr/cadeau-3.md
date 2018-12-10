@@ -11,4 +11,4 @@ sites:
     name: B&H
     price: '24.95'
 ---
-Step up rings allow me to reuse expensive filters for my lenses (usually 150$-300$) on multiple lenses by simply using an adapter. I am looking to buy a new filter so these will come in handy pretty soon.
+Les "step up rings" me permettent de réutiliser mes filtres pour mes objectifs (généralement de 150 $ à 300 $) sur plusieurs objectifs en utilisant simplement un adaptateur (les step up rings).
