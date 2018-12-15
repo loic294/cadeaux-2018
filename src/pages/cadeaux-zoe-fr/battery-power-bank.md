@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux
+templateKey: cadeaux-zoe-fr
 title: Battery Power Bank
 sites:
   - desc: ''

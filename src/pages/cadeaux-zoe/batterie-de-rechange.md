@@ -1,5 +1,5 @@
 ---
-templateKey: cadeaux-fr
+templateKey: cadeaux-zoe
 title: Batterie de rechange
 sites:
   - desc: ''
