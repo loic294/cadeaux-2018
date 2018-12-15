@@ -40,4 +40,38 @@ collections:
           - {label: Price, name: price, widget: string, default: "20.00"}
           - {label: Link, name: link, widget: string, default: ""}
           - {label: Description, name: desc, widget: string, default: ""}
+  - name: "cadeaux-zoe-fr"
+    label: "Cadeaux Zoé (fr)"
+    folder: "src/pages/cadeaux-zoe-fr"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cadeaux-zoe-fr"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Sites"
+        name: "sites"
+        widget: "list"
+        fields:
+          - {label: Name, name: name, widget: string, default: "Amazon"}
+          - {label: Price, name: price, widget: string, default: "20.00"}
+          - {label: Link, name: link, widget: string, default: ""}
+          - {label: Description, name: desc, widget: string, default: ""}
+  - name: "cadeaux-zoe"
+    label: "Cadeaux Zoé"
+    folder: "src/pages/cadeaux-zoe"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "cadeaux-zoe"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Sites"
+        name: "sites"
+        widget: "list"
+        fields:
+          - {label: Name, name: name, widget: string, default: "Amazon"}
+          - {label: Price, name: price, widget: string, default: "20.00"}
+          - {label: Link, name: link, widget: string, default: ""}
+          - {label: Description, name: desc, widget: string, default: ""}
          
