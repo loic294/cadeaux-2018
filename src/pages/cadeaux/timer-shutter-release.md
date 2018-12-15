@@ -1,6 +1,7 @@
 ---
 templateKey: cadeaux
 title: Wired Shutter Release Remote Control
+achete: true
 sites:
   - desc: ''
     link: >-
