@@ -46,7 +46,7 @@ export default class IndexPage extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query IndexZoeQuery {
     allMarkdownRemark(
       filter: { frontmatter: { templateKey: { eq: "cadeaux-zoe" } }}
     ) {
