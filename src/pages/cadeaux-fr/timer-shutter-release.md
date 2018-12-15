@@ -1,6 +1,7 @@
 ---
 templateKey: cadeaux-fr
 title: Télécommande avec déclencheur filaire
+achete: true
 sites:
   - desc: ''
     link: >-
