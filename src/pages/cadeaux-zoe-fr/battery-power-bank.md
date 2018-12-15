@@ -1,6 +1,6 @@
 ---
 templateKey: cadeaux-zoe-fr
-title: Battery Power Bank
+title: Cadeau Zoé
 sites:
   - desc: ''
     link: >-
