@@ -1,6 +1,7 @@
 ---
 templateKey: cadeaux
 title: Battery Power Bank
+achete: true
 sites:
   - desc: ''
     link: >-
