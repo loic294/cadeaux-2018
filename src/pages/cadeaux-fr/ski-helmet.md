@@ -1,6 +1,7 @@
 ---
 templateKey: cadeaux-fr
 title: Casque de ski
+achete: true
 sites:
   - desc: ''
     link: '#'
