@@ -1,6 +1,7 @@
 ---
 templateKey: cadeaux
 title: Ski helmet
+achete: true
 sites:
   - desc: ''
     link: '#'
